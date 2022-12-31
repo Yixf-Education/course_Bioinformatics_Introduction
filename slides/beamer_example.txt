@@ -1,0 +1,55 @@
+\begin{frame}
+\frametitle{TMP}
+\alert{非圣贤之书， 勿读。无益之文， 勿观。}
+\boxalert{非圣贤之书， 勿读。无益之文， 勿观。}
+\begin{itemize}[<+->]
+\item Add \textbackslash boxalert environment
+\begin{itemize}
+\item Add \textbackslash remark 环境environment
+\begin{itemize}
+\item Add \textbackslash information environment
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\begin{enumerate}[<+->]
+\item Modify \textbackslash quotation environment
+\begin{enumerate}
+\item Modify \textbackslash block environment
+\begin{enumerate}
+\item Modify \textbackslash alertblock environment
+\item Modify \textbackslash exampleblock environment
+\item Modify \textbackslash definition environment
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Blocks1}
+\begin{block}{Block Name}
+Block information.
+\end{block}
+\begin{alertblock}{Alert Block Name}
+Alert block information.
+\end{alertblock}
+  \begin{exampleblock}{Example Block Name}
+    Example block information.
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+\frametitle{Blocks2}
+\begin{definition}{Definition Name}
+A definition information.
+\end{definition}
+\end{frame}
+
+\begin{frame}
+\frametitle{Blocks3}
+  \begin{remark}[Remark Name]
+    Remark information.
+  \end{remark}
+  \begin{information}[Information Name]
+Maybe more information?
+\end{information}
+\end{frame}
