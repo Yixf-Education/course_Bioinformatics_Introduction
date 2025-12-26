@@ -43,8 +43,8 @@
 \subtitle{\Large{$\S 4$单细胞组学与生物信息学}}
 \author{\vspace{-0.6cm}\large{伊现富（Yi Xianfu）}}
 % \date{\large{2022年12月23日}}
-\date{\large{2023年12月29日}}
-\institute{\centering{\large{基础医学院\\ 生物信息学系\vspace{0.3cm}\\ 2023-2024学年 \textbullet \ 上学期（秋）\vspace{0.1cm}\\ 生物信息学专业 \textbullet \ 2023级本科生}}}
+\date{\large{2025年12月26日}}
+\institute{\centering{\large{基础医学院\\ 生物信息学系\vspace{0.3cm}\\ 2025-2026学年 \textbullet \ 上学期（秋）\vspace{0.1cm}\\ 生物信息学专业 \textbullet \ 2025级本科生}}}
 % \logo{\includegraphics[width=1.2cm]{logo_dbx.jpg}}
 
 
@@ -1559,6 +1559,73 @@
 		\begin{figure}
 		\includegraphics[width=0.9\textwidth]{ST_design_01.png}
 	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+	\begin{block}{技术要点}
+    \begin{itemize}
+      \item 一张玻片上包含两个6.5 x 6.5mm捕获区域
+      \item 连续排列的数百万个无间隙的2 x 2 \textmu m条形码标记的正方形
+      \item 实现无间隙捕获组织信息
+      \item 捕获数目从5千个spot大幅提升到1100万个square
+      \item 数据以2 \textmu m正方形单位以及多个合并的分析单位输出
+      \item 8 x 8 \textmu m大小（ 8 \textmu m的长度大约相当于普通细胞的直径）的分析单位是推荐的可视化和分析的起始点
+      \item 实现\alert{单细胞级的空间分辨率}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+		\begin{figure}
+      \centering
+		\includegraphics[width=\textwidth]{ST_visiumhd_04.jpg}
+   	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{ST_visiumhd_02.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+  \begin{block}{实验流程}
+    首先将新鲜冷冻的组织切片或FFPE样本固定在Visium HD载玻片上，对组织切片进行染色和高解析度成像，以获取详细的组织结构信息。将组织切片进行裂解和逆转录，将细胞内之RNA逆转录成cDNA后建库并进行高通量测序。最后使用10x Genomics提供的软件工具，结合成像之数据和测序数据，生成空间基因表达图谱。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{ST_visiumhd_01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+  \begin{block}{关键特点}
+    \begin{itemize}
+      \item 高解析度：Visium HD提供了单一细胞解析度的基因表达图谱，可以在组织切片的单细胞水平上进行精细的基因表达分析。
+      \item 空间信息：通过将基因表达数据与组织切片的空间位置信息结合，研究人员可以确定特定基因在组织中的确切位置。
+      \item 全面覆盖：Visium HD可以分析整个组织切片，从而提供全面的空间转录组学数据。
+      \item 多样性应用：适用于各种组织类型，包括人类与小鼠的样本。
+      \item 数据整合：可以与其他单细胞RNA测序数据结合使用，提供更全面的基因表达和细胞相互作用的视图。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{ST | 实验 | Visium HD}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{ST_visiumhd_06.jpg}
+  \end{figure}
 \end{frame}
 
 \subsection{分析策略}
